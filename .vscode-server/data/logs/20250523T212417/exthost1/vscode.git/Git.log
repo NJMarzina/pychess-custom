@@ -1,0 +1,109 @@
+2025-05-23 21:24:22.137 [info] [main] Log level: Info
+2025-05-23 21:24:22.137 [info] [main] Validating found git in: "git"
+2025-05-23 21:24:22.137 [info] [main] Using git "2.43.0" from "git"
+2025-05-23 21:24:22.137 [info] [Model][doInitialScan] Initial repository scan started
+2025-05-23 21:24:22.137 [info] > git rev-parse --show-toplevel [6ms]
+2025-05-23 21:24:22.137 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-23 21:24:22.137 [info] > git rev-parse --show-toplevel [11ms]
+2025-05-23 21:24:22.137 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-23 21:24:22.144 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-23 21:24:22.144 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-23 21:24:22.166 [info] > git rev-parse --show-toplevel [6ms]
+2025-05-23 21:24:22.166 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-23 21:24:22.179 [info] > git rev-parse --show-toplevel [7ms]
+2025-05-23 21:24:22.179 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-23 21:24:22.186 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-23 21:24:22.187 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-23 21:24:22.194 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-23 21:24:22.213 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2025-05-23 21:24:22.271 [info] [Model][openRepository] Opened repository (path): /home/njmarzina/pychess
+2025-05-23 21:24:22.271 [info] [Model][openRepository] Opened repository (real path): /home/njmarzina/pychess
+2025-05-23 21:24:22.302 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-05-23 21:24:22.323 [info] > git config --get commit.template [13ms]
+2025-05-23 21:24:22.333 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-05-23 21:24:22.339 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/njmarzina/pychess/.git/refs/remotes/origin/master'
+2025-05-23 21:24:22.350 [info] > git rev-parse refs/remotes/origin/master [11ms]
+2025-05-23 21:24:22.386 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-05-23 21:24:22.825 [info] > git check-ignore -v -z --stdin [2ms]
+2025-05-23 21:24:23.291 [info] > git status -z -uall [934ms]
+2025-05-23 21:24:24.303 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [843ms]
+2025-05-23 21:24:24.339 [info] > git config --get --local branch.master.vscode-merge-base [16ms]
+2025-05-23 21:24:24.342 [warning] [Git][config] git config failed: Failed to execute git
+2025-05-23 21:24:24.355 [info] > git rev-parse --show-toplevel [64ms]
+2025-05-23 21:24:24.355 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-23 21:24:24.355 [info] > git config --get commit.template [70ms]
+2025-05-23 21:24:24.370 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-05-23 21:24:24.370 [info] > git reflog master --grep-reflog=branch: Created from *. [16ms]
+2025-05-23 21:24:24.378 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/njmarzina/pychess/.git/refs/remotes/origin/master'
+2025-05-23 21:24:24.386 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [12ms]
+2025-05-23 21:24:24.402 [info] > git rev-parse refs/remotes/origin/master [24ms]
+2025-05-23 21:24:24.433 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [42ms]
+2025-05-23 21:24:24.458 [info] > git config --add --local branch.master.vscode-merge-base origin/master [2ms]
+2025-05-23 21:24:24.472 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [47ms] (cancelled)
+2025-05-23 21:24:24.652 [info] > git status -z -uall [234ms] (cancelled)
+2025-05-23 21:24:24.652 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [174ms]
+2025-05-23 21:24:24.683 [info] > git config --get commit.template [32ms]
+2025-05-23 21:24:24.685 [info] > git config --get --local branch.master.vscode-merge-base [17ms]
+2025-05-23 21:24:24.929 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [214ms]
+2025-05-23 21:24:24.929 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [228ms]
+2025-05-23 21:24:24.962 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/njmarzina/pychess/.git/refs/remotes/origin/master'
+2025-05-23 21:24:24.963 [info] > git merge-base refs/heads/master refs/remotes/origin/master [16ms]
+2025-05-23 21:24:25.369 [info] > git rev-parse refs/remotes/origin/master [407ms]
+2025-05-23 21:24:25.402 [info] > git diff --name-status -z --diff-filter=ADMR 54679a43c1c4c20bc9fb91d3e8167fed698cd970...refs/remotes/origin/master [434ms]
+2025-05-23 21:24:25.415 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [19ms]
+2025-05-23 21:24:26.342 [info] > git status -z -uall [968ms]
+2025-05-23 21:24:29.621 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-23 21:24:29.621 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-23 21:24:29.914 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-23 21:24:29.914 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-23 21:24:31.409 [info] > git rev-parse --show-toplevel [207ms]
+2025-05-23 21:24:31.700 [info] > git rev-parse --git-dir --git-common-dir [277ms]
+2025-05-23 21:24:31.711 [info] [Model][openRepository] Opened repository (path): /home/njmarzina
+2025-05-23 21:24:31.711 [info] [Model][openRepository] Opened repository (real path): /home/njmarzina
+2025-05-23 21:24:31.737 [info] > git config --get commit.template [6ms]
+2025-05-23 21:24:31.747 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-23 21:24:32.559 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [812ms]
+2025-05-23 21:24:32.559 [warning] [Git][getBranch] No such branch: master
+2025-05-23 21:24:32.649 [info] > git status -z -uall [85ms]
+2025-05-23 21:24:32.649 [info] > git check-ignore -v -z --stdin [71ms]
+2025-05-23 21:24:32.649 [info] > git check-ignore -v -z --stdin [66ms]
+2025-05-23 21:24:32.650 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [80ms]
+2025-05-23 21:24:32.816 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [99ms]
+2025-05-23 21:24:32.817 [warning] [Git][getBranch] No such branch: master
+2025-05-23 21:24:32.817 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-05-23 21:24:33.227 [info] > git config --get commit.template [498ms]
+2025-05-23 21:24:33.602 [info] > git config --get commit.template [398ms]
+2025-05-23 21:24:33.614 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-23 21:24:33.639 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [24ms]
+2025-05-23 21:24:33.639 [warning] [Git][getBranch] No such branch: master
+2025-05-23 21:24:33.660 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-05-23 21:24:33.661 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [25ms]
+2025-05-23 21:24:33.670 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/njmarzina/pychess/.git/refs/remotes/origin/master'
+2025-05-23 21:24:33.774 [info] > git status -z -uall [129ms]
+2025-05-23 21:24:33.774 [info] > git rev-parse refs/remotes/origin/master [104ms]
+2025-05-23 21:24:34.547 [info] > git status -z -uall [767ms]
+2025-05-23 21:24:34.548 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [762ms]
+2025-05-23 21:24:36.332 [info] > git config --get commit.template [1814ms]
+2025-05-23 21:24:36.593 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-23 21:24:36.670 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [77ms]
+2025-05-23 21:24:36.670 [warning] [Git][getBranch] No such branch: master
+2025-05-23 21:24:37.246 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [566ms]
+2025-05-23 21:24:37.388 [info] > git status -z -uall [713ms]
+2025-05-23 21:24:47.053 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-23 21:24:47.054 [info] > git config --get commit.template [6ms]
+2025-05-23 21:24:47.055 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-23 21:24:47.055 [warning] [Git][getBranch] No such branch: master
+2025-05-23 21:24:47.065 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-05-23 21:24:47.078 [info] > git status -z -uall [19ms]
+2025-05-23 21:24:52.260 [info] > git config --get commit.template [3ms]
+2025-05-23 21:24:52.269 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-23 21:24:52.270 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-23 21:24:52.271 [warning] [Git][getBranch] No such branch: master
+2025-05-23 21:24:52.288 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-05-23 21:24:52.301 [info] > git status -z -uall [23ms]
+2025-05-23 21:25:01.821 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-23 21:25:01.821 [info] > git config --get commit.template [14ms]
+2025-05-23 21:25:01.823 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-05-23 21:25:01.823 [warning] [Git][getBranch] No such branch: master
+2025-05-23 21:25:01.842 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-23 21:25:01.864 [info] > git status -z -uall [32ms]

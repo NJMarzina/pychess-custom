@@ -1,0 +1,8 @@
+21:22:44.512 Default INFO: PyChess Steinitz 1.0.4 git 
+21:22:44.512 Default INFO: Command line args: 'None'
+21:22:44.513 Default INFO: Platform: Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.39
+21:22:44.513 Default INFO: Python version: 3.12.3
+21:22:44.513 Default INFO: Pyglib version: 3.48.2
+21:22:44.513 Default INFO: Gtk version: 3.24.41
+21:23:32.861 unknown ERROR: Task was destroyed but it is pending!
+task: <Task pending name='Task-9' coro=<CECPEngine.parseLine() done, defined at /usr/lib/python3/dist-packages/pychess/Players/CECPEngine.py:741> wait_for=<wait_signal pending cb=[Task.task_wakeup()]>>
