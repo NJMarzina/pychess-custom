@@ -6,4 +6,5 @@
 4. BANG
 
 **Troubleshooting**
+
 If just breaks, try to run: *rm ~/.config/pychess/config*
