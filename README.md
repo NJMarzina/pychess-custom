@@ -4,3 +4,6 @@
 2. cd ~/pychess
 3. ./pychess
 4. BANG
+
+**Troubleshooting**
+If just breaks, try to run: *rm ~/.config/pychess/config*
